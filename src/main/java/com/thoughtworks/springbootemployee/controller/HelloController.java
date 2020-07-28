@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/hello")
 public class HelloController {
+
     @GetMapping(path = "/{userName}")
     public String getAll(@PathVariable String userName) {
 

@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringBootEmployeeApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void should_return_status_code_when_add_() {
 	}
 
 }
